@@ -1,4 +1,4 @@
-# 🚀 CodeDaily
+# 🚀 CodeClub -> Code Daily
 
 > **Learn. Code. Commit. Repeat.**
 
