@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">Document object Models</h1>
+    <h2 class="submit">Welcome to Frontend</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloremque quia culpa magnam qui. Temporibus nobis culpa est, facilis, incidunt animi distinctio consequuntur quidem eum, totam nisi sunt modi ipsum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fugit asperiores deserunt ratione veniam minima quae reprehenderit ad at? Doloremque, odit. Incidunt odit consequuntur reprehenderit explicabo architecto corporis quo laborum.</p>
+    <button class="submit">Click here</button>
+    <form>
+        <input type="text" name="username" value="Mahesh">
+        <br><br>
+        <input type="text" name="username" value="B">
+        <br>
+    </form>
+<script>
+        document.getElementById("heading").innerText="DOM";
+        document.getElementsByTagName("p")[1].style.color = "red";
+        document.getElementsByClassName("submit")[1].style.color= "yellow";
+        document.getElementsByName("username")[1].value;
+        document.querySelector("p").textContent="This is paragraph";
+        document.querySelectorAll("p")[0].style.color="blue";
+
+    </script>
+</body>
+</html>
